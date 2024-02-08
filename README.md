@@ -23,6 +23,7 @@ Here is my implementation for the "Ala Carte" and "rectangular" multiplication. 
 - When dealing with small to moderate-sized numbers where simplicity is prioritized over efficiency.
 - When memory constraints are a concern, as Ala Carte multiplication doesn't require extra memory beyond storing the result.
 - When the focus is on implementing a simple multiplication algorithm without additional complexity.
+---
 **When you might want to choose rectangular multiplication**:
 - When dealing with larger numbers where efficiency is crucial, as rectangular multiplication is more versatile and can handle larger inputs efficiently.
 - When readability and ease of understanding are important, as the algorithm's structure makes it easier to follow compared to bit manipulation.
