@@ -1,5 +1,5 @@
----
 Here is my implementation for the "Ala Carte" and "rectangular" multiplication. They two different algorithms used for multiplying large numbers, but each has its own strengths and weaknesses.
+---
 1. **Ala Carte Multiplication**:
    - **Algorithm**: The Ala Carte multiplication algorithm iterates over the bits of one of the multiplicands (`b` in this case) and accumulates partial products by left shifting one multiplicand (`a`) and right shifting the other (`b`).
    - **Pros**:
@@ -8,7 +8,7 @@ Here is my implementation for the "Ala Carte" and "rectangular" multiplication. 
    - **Cons**:
      - Efficiency: It may not be as efficient for large numbers because it requires a loop over the bits of one of the multiplicands.
      - Limited applicability: It's best suited for small to moderate-sized numbers.
----
+
 2. **Rectangular Multiplication**:
    - **Algorithm**: Rectangular multiplication breaks down the multiplication process into smaller, easier-to-handle steps. It represents each multiplicand as a string of digits and performs multiplication digit by digit.
    - **Pros**:
